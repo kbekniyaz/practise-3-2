@@ -1,0 +1,344 @@
+
+	*{
+	margin: 0;
+	padding: 0;
+}
+	.About{
+		position: relative;
+		width: 1368px;
+		height: 912px;
+		background: #FFDD55;
+}
+	header{
+		position: absolute;
+		width: 1368px;
+		height: 92px;
+		left: 0px;
+		top: 0px;
+
+		background: #000000;
+		border-radius: 0px 0px 20px 20px;
+
+	}
+	li{
+		list-style: none;
+	}
+	.About a{
+		text-decoration: none;
+	}
+		.Montserrat{
+		
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 25px;
+		line-height: 30px;
+		color: #FFFFFF;
+	}
+	#team{
+		position: absolute;
+		width: 71px;
+		height: 30px;
+		left: 1267px;
+		top: 31px;
+	}
+	#contact{
+		position: absolute;
+		width: 142px;
+		height: 30px;
+		left: 1064px;
+		top: 31px;
+	}
+	#home{
+		position: absolute;
+		width: 79px;
+		height: 30px;
+		left: 791px;
+		top: 31px;
+	}
+	#about{
+		position: absolute;
+		width: 80px;
+		height: 30px;
+		left: 926px;
+		top: 31px;
+	}
+	#figma-design{
+		position: absolute;
+		width: 330px;
+		height: 63px;
+		left: 111px;
+		top: 14px;
+		font-family: Caveat;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 50px;
+		line-height: 63px;
+		color: #A259FF;
+	}
+	#frame{
+		position: absolute;
+		width: 1368px;
+		height: 805px;
+		left: 0px;
+		top: 92px;
+		overflow-y: scroll;
+			}
+		#my-info{
+			position: absolute;
+			width: 1184px;
+			height: 625px;
+			left: 32px;
+			top: 75px;
+		}
+		#IS{
+			position: absolute;
+			width: 198px;
+			height: 28px;
+			left: 32px;
+			top: 288px;
+
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 25px;
+			line-height: 28px;
+			color: #474A57;
+		}
+		#hello{
+			position: absolute;
+			width: 50px;
+			height: 40px;
+			left: 32px;
+			top: 184px;
+
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: 800;
+			font-size: 36px;
+			line-height: 40px;
+			text-align: center;
+
+			color: #18191F;
+		}
+		#name{
+			position: absolute;
+			width: 250px;
+			height: 40px;
+			left: 32px;
+			top: 236px;
+
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: 800;
+			font-size: 36px;
+			line-height: 40px;
+			color: #18191F;
+			}
+			#download-cv{
+				display: flex;
+				flex-direction: row;
+				align-items: flex-start;
+				padding: 10px 34px;
+
+				position: absolute;
+				width: 246px;
+				height: 50px;
+				left: 220px;
+				top: 371px;
+
+				background: #000000;
+				box-shadow: 4px 4px 0px #EB7711;
+				border-radius: 10px;
+			}
+			#download-cv a{
+				text-decoration: none;
+				position: static;
+				width: 178px;
+				height: 30px;
+				left: 34px;
+				top: 10px;
+				font-family: Montserrat;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 25px;
+				line-height: 30px;
+
+				color: #FFFFFF;
+				flex: none;
+				order: 0;
+				flex-grow: 0;
+				margin: 0px 10px;
+			}
+			#hire-me{
+				display: flex;
+				flex-direction: row;
+				align-items: flex-start;
+				padding: 10px 34px;
+
+				position: absolute;
+				width: 169px;
+				height: 50px;
+				left: 32px;
+				top: 371px;
+
+				background: #000000;
+				box-shadow: 4px 4px 0px #EB7711;
+				border-radius: 10px;
+			}
+			#hire-me a{
+				text-decoration: none;
+				position: static;
+				width: 101px;
+				height: 30px;
+				left: 34px;
+				top: 10px;
+				font-family: Montserrat;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 25px;
+				line-height: 30px;
+				color: #FFFFFF;
+				flex: none;
+				order: 0;
+				flex-grow: 0;
+				margin: 0px 10px;
+			}
+			#my-face{
+				position: absolute;
+				width: 500px;
+				height: 625px;
+				left: 716px;
+				top: 75px;
+				background: #00C6AE;
+				box-shadow: 6px 6px 4px #000000;
+				border-radius: 10px;
+			}
+			#my-face img{
+				position: absolute;
+				width: 500px;
+				height: 541.53px;
+				top: 83px;
+				transform: matrix(-1, 0, 0, 1, 0, 0);
+			}
+	#social-media{
+		position: absolute;
+		width: 77.62px;
+		height: 322.69px;
+		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	}
+		.youtube{
+			position: absolute;
+			width: 76.92px;
+			height: 76.92px;
+			left: 1278px;
+			top: 624.77px;
+		}
+		#youtube{
+			position: absolute;
+			left: 27.3%;
+			right: 27.2%;
+			top: 26.3%;
+			bottom: 28.2%;
+		}
+		.twitter{
+			position: absolute;
+			width: 76.92px;
+			height: 76.92px;
+			left: 1278px;
+			top: 542.85px;
+		}
+		#twitter{
+			position: absolute;
+			left: 27.3%;
+			right: 27.2%;
+			top: 26.2%;
+			bottom: 28.3%;
+
+		}
+		.facebook{
+			position: absolute;
+			width: 76.92px;
+			height: 76.92px;
+			left: 1278.69px;
+			top: 460.92px;
+		}
+		#facebook{
+			position: absolute;
+			left: 26.4%;
+			right: 28.1%;
+			top: 27.4%;
+			bottom: 27.1%;
+		}
+
+		.instagram{
+			position: absolute;
+			width: 76.92px;
+			height: 76.92px;
+			left: 1278px;
+			top: 379px;
+		}
+		#instagram{
+			position: absolute;
+			left: 27.3%;
+			right: 27.2%;
+			top: 27.3%;
+			bottom: 27.2%;
+		}
+
+
+
+
+		.animate__animated.animate__lightSpeedInRight{
+			--animate-duration: 3s;
+		}
+		.animate__animated.animate__rotateInDownRight{
+			--animate-duration: 10s;
+
+		}
+		.animate__animated.animate__fadeInLeft{
+			--animate-duration: 3s;
+
+		}
+		.animate__animated.animate__fadeInTopLeft{
+			--animate-duration: 3s;
+		}
+		.animate__animated.animate__zoomInLeft{
+			--animate-duration: 3s;
+
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
